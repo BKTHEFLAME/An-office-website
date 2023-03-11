@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0px 20px 20px;
+    /*top, right, bottom, left*/
+    /* if its just two its top bottom and right left*/
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 25px;
+}
+.intro h1{
+    margin: 20px 0px 20px 0px;
+    font-size: 100px;
+    color: white;
+    text-transform: capitalize;
+}
+.sure{
+    margin: 64px 0px 10px 30px; 
+    width: 380px; 
+}
+.saint img{
+    height: auto;
+    width: 430px;
+}
+.saint{
+    display: flex;
+}
+.main{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text {
+    margin: 120px 0px 0px 0px;
+    width: 740px;
+}
+.main img{
+    height: auto;
+    width: 430px;
+}
+.main h1{
+    font-size: 42px;
+}
+form input:first-child{
+    width: 35%;
+    padding: 14px 130px 14px 15px;
+    outline: none;
+    margin-left: 0px;
+}
+form input:last-child{
+    background-color: blue;
+    padding: 14px 30px 15px 29px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border-radius: 2px;
+}
+.lama{
+    width: 1150px;
+    margin: 250px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(/images/bg-curve-desktop.svg);     
+       
+}
+.lama img{
+    height: auto;
+    width: 430px;    
+}
+.lama h1{
+    font-size: 42px;
+}
+.ace{
+    color:  hsl(224, 93%, 58%);
+    margin: 70px 0px 0px 25px;
+}
+
+.swae{
+    background-color:  hsl(240, 75%, 98%);
+    width: 377px;
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 75%);
+    padding: 33px 0px 20px 0px;
+    border-radius: 2px;
+}
+.swae img{
+    border-radius: 30px;
+    height: 40px;
+    margin: 45px -22px 0px 0px;
+    width: 40px;
+}
+.ace img{
+    border-radius: 30px;
+    height: 20px;
+    width: 20px;
+    margin: 0px 0px -4px 0px;
+}
+.don{
+    display: flex;
+}
+.veet{
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  hsl(238, 22%, 44%);
+    background-size: cover;
+}
+.drake{
+    width: 35%;
+    padding: 14px 130px 14px 15px;
+    outline: none;
+    margin-left: 0px;
+    margin: 0px 26px 48px 0px;
+}
+.house{
+    background-color: blue;
+    padding: 15px 30px 15px 30px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    margin: 108px 192px 0px 705px;
+    color: white;
+    border-radius: 2px;
+}
+.nirvana{
+    color: white;
+    width: 478px;
+    padding: 90px 70px;
+}
+.meso{
+    color: white;
+    background-color: hsl(243, 87%, 12%) ;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 75px 72px;
+    display: flex;
+    gap: 330px;
+    list-style-type: none;
+}
+@media (max-width: 768px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Rubik', sans-serif;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 45px 0px 20px 20px;
+        /*top, right, bottom, left*/
+        /* if its just two its top bottom and right left*/
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        padding: 10px 2px;
+    }
+    .main{
+        margin: 0px 0px 0px 0px;
+        display: block;
+        width: 530px;
+    }
+    .about-text h2{
+        color: white;
+        font-size: 50px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .about-text h5{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 12px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+    .about-text{
+        padding: 10px 3px;
+        width: 350px;
+    }
+    .sure{
+        margin: 64px 0px 10px 30px; 
+        width: 380px; 
+    }
+    .saint img{
+        height: auto;
+        width: 430px;
+    }
+    .saint{
+        display: flex;
+    }
+    
+    .about-text {
+        margin: 0px 0px 0px 0px;
+        width: 313px;
+    }
+    .main img{
+        height: auto;
+        width: 430px;
+    }
+    .main h1{
+        font-size: 42px;
+    }
+    form input:first-child{
+        width: 35%;
+        padding: 14px 130px 14px 15px;
+        outline: none;
+        margin-left: 0px;
+    }
+    form input:last-child{
+        background-color: blue;
+        padding: 14px 30px 14x 15px;
+        position: absolute;
+        cursor: pointer;
+        border: none;
+        color: white;
+        width: 20%;
+        margin-left: 0px;
+        box-shadow: 2px 2px 2px 2px #888888;
+        border-radius: 2px;
+    }
+    .lama{
+        width: 295px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 38px;
+        font-size: larger;
+        background-image: url(/images/bg-curve-desktop.svg);     
+           
+    }
+    .lama img{
+        height: auto;
+        width: 430px;    
+    }
+    .lama h1{
+        font-size: 42px;
+    }
+    .ace{
+        color:  hsl(224, 93%, 58%);
+        margin: 70px 0px 0px 25px;
+    }
+    
+    .swae{
+        background-color:  hsl(240, 75%, 98%);
+        width: 377px;
+        box-shadow: 2px 2px 2px 2px hsl(0, 0%, 75%);
+        padding: 33px 0px 20px 0px;
+        border-radius: 2px;
+    }
+    .swae img{
+        border-radius: 30px;
+        height: 40px;
+        margin: 45px -22px 0px 0px;
+        width: 40px;
+    }
+    .ace img{
+        border-radius: 30px;
+        height: 20px;
+        width: 20px;
+        margin: 0px 0px -4px 0px;
+    }
+    .don{
+        display: flex;
+    }
+    .veet{
+       display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color:  hsl(238, 22%, 44%);
+        background-size: cover;
+    }
+    .drake {
+        width: 44%;
+        padding: 20px 90px 14px 12px;
+        outline: none;
+        margin-left: 0px;
+        margin: 0px 32px 82px -81px;
+    }
+    .house {
+        background-color: blue;
+        padding: 15px 30px 15px 30px;
+        position: absolute;
+        cursor: pointer;
+        border: none;
+        margin: 108px 192px 0px 705px;
+        color: white;
+        border-radius: 2px;
+    }
+    .nirvana{
+        color: white;
+        width: 478px;
+        padding: 90px 70px;
+    }
+    .meso{
+        color: white;
+        background-color: hsl(243, 87%, 12%) ;
+        background-size: cover;
+        margin: 0 auto;
+        padding: 75px 72px;
+        display: flex;
+        gap: 330px;
+        list-style-type: none;
+        flex-direction: column;
+    }   
+    .meso ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .meso li{
+        padding: 10px 2px;
+    }
+}
+ 
