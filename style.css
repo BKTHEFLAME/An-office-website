@@ -176,9 +176,9 @@ form input:last-child{
         padding: 10px 2px;
     }
     .main{
-        margin: 0px 0px 0px 0px;
+        
         display: block;
-        width: 530px;
+        width: 329px;
     }
     .about-text h2{
         color: white;
@@ -215,7 +215,7 @@ form input:last-child{
     }
     .main img{
         height: auto;
-        width: 430px;
+        width: 344px;
     }
     .main h1{
         font-size: 42px;
@@ -237,6 +237,7 @@ form input:last-child{
         margin-left: 0px;
         box-shadow: 2px 2px 2px 2px #888888;
         border-radius: 2px;
+        font-size: xx-small;
     }
     .lama{
         width: 295px;
@@ -252,7 +253,7 @@ form input:last-child{
     }
     .lama img{
         height: auto;
-        width: 430px;    
+        width: 400px;    
     }
     .lama h1{
         font-size: 42px;
@@ -304,7 +305,7 @@ form input:last-child{
         position: absolute;
         cursor: pointer;
         border: none;
-        margin: 108px 192px 0px 705px;
+        margin: 130px 501px -164px 668px;
         color: white;
         border-radius: 2px;
     }
